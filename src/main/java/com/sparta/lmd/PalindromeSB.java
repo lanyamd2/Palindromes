@@ -28,8 +28,4 @@ public class PalindromeSB {//palindrome checker with stringbuilder
         }
         return longest;
     }
-
-    public static String[] toArray(String str){
-        return str.split(" ");
-    }
 }

@@ -5,7 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="820e5452-9faa-4135-9d14-3841934de1e9" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/lmd/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/lmd/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/sparta/lmd/PalindromeSB.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/sparta/lmd/PalindromeSB.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/sparta/lmd/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/sparta/lmd/PalindromeTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,8 +36,8 @@
     "SHARE_PROJECT_CONFIGURATION_FILES": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="JUnit.Tests">
-    <configuration name="Tests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="JUnit.PalindromeTests">
+    <configuration name="PalindromeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Palindromes" />
       <extension name="coverage">
         <pattern>
@@ -45,13 +46,13 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.lmd" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.lmd.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.lmd.PalindromeTests" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testIsLongestSB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTests.testIsLongestSB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Palindromes" />
       <extension name="coverage">
         <pattern>
@@ -60,14 +61,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.lmd" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.lmd.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.lmd.PalindromeTests" />
       <option name="METHOD_NAME" value="testIsLongestSB(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testIsLongestStr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTests.testIsLongestStr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Palindromes" />
       <extension name="coverage">
         <pattern>
@@ -76,14 +77,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.lmd" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.lmd.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.lmd.PalindromeTests" />
       <option name="METHOD_NAME" value="testIsLongestStr(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testPalindromeCheckerSB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTests.testPalindromeCheckerSB" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Palindromes" />
       <extension name="coverage">
         <pattern>
@@ -92,14 +93,14 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.lmd" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.lmd.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.lmd.PalindromeTests" />
       <option name="METHOD_NAME" value="testPalindromeCheckerSB(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.testPalindromeCheckerStr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PalindromeTests.testPalindromeCheckerStr" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Palindromes" />
       <extension name="coverage">
         <pattern>
@@ -108,7 +109,7 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="com.sparta.lmd" />
-      <option name="MAIN_CLASS_NAME" value="com.sparta.lmd.Tests" />
+      <option name="MAIN_CLASS_NAME" value="com.sparta.lmd.PalindromeTests" />
       <option name="METHOD_NAME" value="testPalindromeCheckerStr(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -117,11 +118,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.Tests" />
-        <item itemvalue="JUnit.Tests.testIsLongestStr" />
-        <item itemvalue="JUnit.Tests.testIsLongestSB" />
-        <item itemvalue="JUnit.Tests.testPalindromeCheckerStr" />
-        <item itemvalue="JUnit.Tests.testPalindromeCheckerSB" />
+        <item itemvalue="JUnit.PalindromeTests" />
+        <item itemvalue="JUnit.PalindromeTests.testIsLongestStr" />
+        <item itemvalue="JUnit.PalindromeTests.testIsLongestSB" />
+        <item itemvalue="JUnit.PalindromeTests.testPalindromeCheckerStr" />
+        <item itemvalue="JUnit.PalindromeTests.testPalindromeCheckerSB" />
       </list>
     </recent_temporary>
   </component>
@@ -135,16 +136,5 @@
       <updated>1683123827045</updated>
     </task>
     <servers />
-  </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/test/java/com/sparta/lmd/Tests.java</url>
-          <line>9</line>
-          <option name="timeStamp" value="1" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
   </component>
 </project>
