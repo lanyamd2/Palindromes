@@ -35,7 +35,7 @@
     &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
 }</component>
-  <component name="RunManager" selected="JUnit.PalindromeTests.testIsLongestSB">
+  <component name="RunManager" selected="JUnit.PalindromeTests.testPalindromeCheckerSB">
     <configuration name="PalindromeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Palindromes" />
       <extension name="coverage">
@@ -117,11 +117,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.PalindromeTests.testPalindromeCheckerSB" />
         <item itemvalue="JUnit.PalindromeTests.testIsLongestSB" />
         <item itemvalue="JUnit.PalindromeTests" />
         <item itemvalue="JUnit.PalindromeTests.testIsLongestStr" />
         <item itemvalue="JUnit.PalindromeTests.testPalindromeCheckerStr" />
-        <item itemvalue="JUnit.PalindromeTests.testPalindromeCheckerSB" />
       </list>
     </recent_temporary>
   </component>

@@ -10,7 +10,7 @@ public class PalindromeTests {
     @ValueSource(strings = {"Anna", "civic", "delEveled"})
     @DisplayName("Tests if string is a palindrome.")
     void testPalindromeCheckerSB(String str){
-        Assertions.assertEquals(true,PalindromeSB.palindromeCheckerSB(str));
+        Assertions.assertTrue(PalindromeSB.palindromeCheckerSB(str));
     }
 
     @ParameterizedTest
@@ -24,7 +24,7 @@ public class PalindromeTests {
     @ValueSource(strings = {"Anna", "civic", "delEveled"})
     @DisplayName("Tests if string is a palindrome.")
     void testPalindromeCheckerStr(String str){
-        Assertions.assertEquals(true,PalindromeStr.palindromeCheckerStr(str));
+        Assertions.assertTrue(PalindromeStr.palindromeCheckerStr(str));
     }
 
     @ParameterizedTest
