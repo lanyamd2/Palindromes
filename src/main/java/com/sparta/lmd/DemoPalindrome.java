@@ -1,15 +1,14 @@
 package com.sparta.lmd;
 
+import java.util.Arrays;
+
 public class DemoPalindrome {
     public static void main(String[] args) {
-        //Using StringBuilder
-        //System.out.println(PalindromeSB.palindromeChecker("Anna"));
-        //System.out.println(PalindromeSB.isLongest(new String[]{"Anna", "drives", "a", "Honda", "Civic"}));
-        //System.out.println(PalindromeSB.isLongest(PalindromeSB.userInput()));
-
-        //Without using StringBuilder
-        //System.out.println(PalindromeStr.palindromeCheckerStr("Civic"));
-        //System.out.println(PalindromeStr.isLongest(new String[]{"Ma'am", "and","rotator", "are","palindromes"}));
-        System.out.println(PalindromeStr.isLongest(PalindromeStr.userInput()));
+        //from scratch.java
+        System.out.println(PalindromeSB.isPalindromeSB("Anna")); //using StringBuilder
+        System.out.println(PalindromeStr.isPalindromeStr("Anna")); //using String
+        System.out.println(Arrays.toString(Palindrome.inputArray("She?sells2seashells."))); //separate string into array
+        System.out.println(Palindrome.longestPalindrome(new String[]{"Ma'am", "and","rotator", "are","palindromes"})); //test array input
+        System.out.println(Palindrome.longestPalindrome(Palindrome.inputArray(Palindrome.userInput()))); //test user input
     }
 }
