@@ -16,9 +16,16 @@ public class PalindromeTests {
 
     @ParameterizedTest
     @ValueSource(strings = {"There are no palindromes in this sentence.", "She has seashells"})
-    @DisplayName("Test for what happens when no palindromes are found.")
+    @DisplayName("Test for what happens when no palindromes are found using StringBuilder.")
+    void testNoPalindromeSB(String str){
+        Assertions.assertEquals("No palindromes were found in this sentence.",PalindromeSB.longestPalindrome(Palindrome.inputArray(str)));
+    }
+
+    @ParameterizedTest
+    @ValueSource(strings = {"There are no palindromes in this sentence.", "She has seashells"})
+    @DisplayName("Test for what happens when no palindromes are found using String.")
     void testNoPalindrome(String str){
-        Assertions.assertEquals("No palindromes were found in this sentence.",Palindrome.longestPalindrome(Palindrome.inputArray(str)));
+        Assertions.assertEquals("No palindromes were found in this sentence.",PalindromeStr.longestPalindrome(Palindrome.inputArray(str)));
     }
 
     @ParameterizedTest
@@ -36,8 +43,16 @@ public class PalindromeTests {
     }
 
     @Test
-    @DisplayName("Tests for the longest palindrome in a sentence")
-    void testLongestPalindrome(){
-        Assertions.assertTrue("civic".equalsIgnoreCase(Palindrome.longestPalindrome(Palindrome.inputArray("Anna drives a Honda Civic."))));
+    @DisplayName("Tests for the longest palindrome in a sentence using StringBuilder")
+    void testLongestPalindromeSB(){
+        Assertions.assertTrue("civic".equalsIgnoreCase(PalindromeSB.longestPalindrome(Palindrome.inputArray("Anna drives a Honda Civic."))));
     }
+
+    @Test
+    @DisplayName("Tests for the longest palindrome in a sentence using String")
+    void testLongestPalindromeStr(){
+        Assertions.assertTrue("civic".equalsIgnoreCase(PalindromeStr.longestPalindrome(Palindrome.inputArray("Anna drives a Honda Civic."))));
+    }
+
+
 }

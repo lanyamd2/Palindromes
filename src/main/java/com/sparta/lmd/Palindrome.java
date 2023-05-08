@@ -16,16 +16,5 @@ public class Palindrome {
         return str.length()>2;
     }//checks word length
 
-    public static String longestPalindrome(String[] strArray){//checks for longest palindrome
-        String longest="";
-        for(String i: strArray){
-            if(isThreeChar(i) && PalindromeSB.isPalindromeSB(i) && i.length()>longest.length()){
-                longest=i;
-            }
-        }
-        if(longest.equals("")){
-            longest="No palindromes were found in this sentence.";
-        }
-        return longest;
-    }
+
 }
